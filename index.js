@@ -11,4 +11,16 @@ client.on("ready", () => {
     console.log("ready!");
 });
 
+
 client.login(process.env.BOT_TOKEN);
+
+const prefix = "!";
+client.on ("message", (message) => {
+
+    if (message.author.bot) return;
+
+    msg = message.content.toLowerCase();
+    
+ if (msg.startsWith (prefix + "test") {
+     message.channel.send ("hey there, its working omg")
+     }
