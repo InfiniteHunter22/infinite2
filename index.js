@@ -1,5 +1,5 @@
 const discord = require ('discord.js');
-const token = process.env.arcadia
+const token = process.env.BOT_TOKEN
 var client = new discord.Client();
 client.on("ready", () => {
     readyEmbed = new discord.RichEmbed()
