@@ -21,6 +21,6 @@ client.on ("message", (message) => {
 
     msg = message.content.toLowerCase();
     
- if (msg.startsWith (prefix + "test") {
+ if (msg.startsWith ("test") {
      message.channel.send ("hey there, its working omg")
      }
