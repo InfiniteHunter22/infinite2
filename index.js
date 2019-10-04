@@ -2,7 +2,7 @@ const discord = require ('discord.js');
 
 var client = new discord.Client();
 
-const token = "NTc5MjA5NTc1NjM1NDg0Njgy.XZcjdQ.RZLxnmKa1bFigzjFo07ArQjj2wo";
+const token = "NTc5MjA5NTc1NjM1NDg0Njgy.XZclDA.glyMaRNUZz4L5cq7bL5PwfDD3Io";
 
 client.on("ready", () => {
     readyEmbed = new discord.RichEmbed()
