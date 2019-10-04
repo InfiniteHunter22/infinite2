@@ -21,4 +21,7 @@ client.on("ready", () => {
     userAnswer = "";
 });
 
+if (message.content.includes (prefix + "hello) {
+                              message.channel.send ("hey thehwehehehe")
+
 client.login(process.env.BOT_TOKEN);
